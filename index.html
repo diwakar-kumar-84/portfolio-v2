@@ -135,13 +135,13 @@
           <h1>A Bit About Me</h1>
           <br />
           <p>
-            I'm a senior developer with 3.5 years of experience specializing in
-            React.js, Next.js, and the MERN stack. My expertise lies in creating
-            robust and scalable web applications, with a keen eye for detail and
-            user experience. Currently, I am aspiring to transition into DevOps,
-            aiming to enhance my skills in CI/CD pipelines, automation, and
-            cloud infrastructure to streamline development processes and improve
-            software delivery.
+            I'm a senior Frontend developer with 3.5 years of experience
+            specializing in React.js, Next.js, and the MERN stack. My expertise
+            lies in creating robust and scalable web applications, with a keen
+            eye for detail and user experience. Currently, I am aspiring to
+            transition into DevOps, aiming to enhance my skills in CI/CD
+            pipelines, automation, and cloud infrastructure to streamline
+            development processes and improve software delivery.
           </p>
         </div>
       </div>
@@ -320,6 +320,120 @@
       </div>
     </section>
 
+    <section>
+      <div class="container reveal">
+        <div class="text-container">
+          <div class="text-box">
+            <img
+              src="public/closewise.png"
+              alt="image"
+              onmouseover="hoverImage1(this)"
+              onmouseout="unhoverImage1(this)"
+            />
+
+            <div class="project-content">
+              <h1>Closewise</h1>
+              <p>
+                CloseWise is a web application tailored for signing agents and
+                services, designed to streamline notary signing workflows and
+                reduce operational costs. Developed using React and Redux, it
+                boasts a responsive frontend with customizable themes for
+                different clients. CloseWise operates as a progressive web app
+                (PWA), ensuring offline functionality and fast loading times.
+                Real-time communication is enabled through Socket.IO,
+                facilitating instant updates and data synchronization.
+                Integrated OneSignal support delivers personalized push
+                notifications, enhancing user engagement. With robust security
+                measures and integration of various APIs, CloseWise offers
+                scalability and reliability, optimizing efficiency in notary
+                signing processes for enhanced productivity.
+              </p>
+              <div class="project-links">
+                <button class="tags">React Js</button>
+                <button class="tags">Redux</button>
+                <button class="tags">Socket.io</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container reveal">
+        <div class="text-container">
+          <div class="text-box">
+            <img
+              src="public/evos.png"
+              alt="image"
+              onmouseover="hoverImage4(this)"
+              onmouseout="unhoverImage4(this)"
+            />
+
+            <div class="project-content">
+              <h1>Evos</h1>
+              <p>
+                Working on EvoS Guroo involved leveraging React and Redux to
+                enhance its cutting-edge network virtualization platform. EvoS
+                combines enterprise-grade virtualization with intuitive
+                click-and-drag simplicity, empowering tech innovators to
+                accelerate development cycles efficiently. Using React, we
+                developed responsive, interactive interfaces that improve
+                usability. Redux ensured robust state management, maintaining
+                predictable data flow across components. This experience
+                deepened my expertise in web development and network
+                virtualization concepts. Collaborating on EvoS Guroo underscored
+                the agile approach's effectiveness in delivering a
+                cost-effective, time-saving solution for technology development.
+              </p>
+              <div class="project-links">
+                <button class="tags">React Js</button>
+                <button class="tags">Redux</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container reveal">
+        <div class="text-container">
+          <div class="text-box">
+            <img
+              src="public/grouped.png"
+              alt="image"
+              onmouseover="hoverImage5(this)"
+              onmouseout="unhoverImage5(this)"
+            />
+
+            <div class="project-content">
+              <h1>Grouped</h1>
+              <p>
+                Developed Grouped, an artist-centric platform using Next.js with
+                React Query to empower creators in cultivating and monetizing
+                their fan base through personalized engagement spaces. Next.js
+                facilitated efficient server-side rendering for fast page loads
+                and SEO benefits. React Query managed server state and caching,
+                optimizing API data fetching and ensuring responsive, real-time
+                updates across the platform. The project emphasized responsive
+                design, ensuring a seamless experience across various devices.
+                Grouped leveraged Next.js with React Query to provide artists
+                with robust tools to customize engagement spaces, foster fan
+                relationships, and effectively monetize their creative work.
+                This experience underscored expertise in scalable web
+                applications tailored for artist communities, prioritizing
+                performance and user engagement.
+              </p>
+              <div class="project-links">
+                <button class="tags">Next Js</button>
+                <button class="tags">Redux</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <hr />
     <div class="skills-container" id="skills">
       <div class="container reveal">
@@ -332,7 +446,7 @@
             <span class="letter">l</span>
             <span class="letter">s</span>
           </div>
-          <p> Technologies I’ve been working with recently </p>
+          <p>Technologies I’ve been working with recently</p>
           <div class="coding-languages">
             <ul>
               <li>
@@ -514,11 +628,11 @@
 
       // project image section
       function hoverImage1(element) {
-        element.src = "public/HSM_registration_img.jpg";
+        element.src = "public/closewise.png";
       }
 
       function unhoverImage1(element) {
-        element.src = "public/HSM_P2.jpg";
+        element.src = "public/closewise.png";
       }
 
       function hoverImage2(element) {
@@ -538,12 +652,21 @@
       }
 
       function hoverImage4(element) {
-        element.src = "public/tailwind-clone-2.png";
+        element.src = "public/evos.png";
       }
 
       function unhoverImage4(element) {
-        element.src = "public/tailwind-clone-1.png";
+        element.src = "public/evos.png";
       }
+
+      function hoverImage5(element) {
+        element.src = "public/grouped.png";
+      }
+
+      function unhoverImage5(element) {
+        element.src = "public/grouped.png";
+      }
+
 
       // JavaScript to hide the splash screen when the page is fully loaded
       document.addEventListener("DOMContentLoaded", function () {
